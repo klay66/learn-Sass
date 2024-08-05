@@ -1,5 +1,24 @@
-@for $i from 1 through 16 {
-  .class#{$i} {
-    font-size: 16px + $i;
+// @for $i from 1 through 16 {
+//   .class#{$i} {
+//     font-size: 16px + $i;
+//   }
+// }
+* {
+  box-sizing: border-box;
+}
+$gridnum: 12;
+%grid {
+  float: left;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid #aaa;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@for $i from 1 through $gridnum {
+  .col-#{$i} {
+    width: (100% / ($gridnum / $i));
+    @extend %grid;
   }
 }

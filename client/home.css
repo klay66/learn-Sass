@@ -1,63 +1,61 @@
-.class1 {
-  font-size: 17px;
+* {
+  box-sizing: border-box;
 }
 
-.class2 {
-  font-size: 18px;
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  float: left;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid #aaa;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.class3 {
-  font-size: 19px;
+.col-1 {
+  width: 8.33333%;
 }
 
-.class4 {
-  font-size: 20px;
+.col-2 {
+  width: 16.66667%;
 }
 
-.class5 {
-  font-size: 21px;
+.col-3 {
+  width: 25%;
 }
 
-.class6 {
-  font-size: 22px;
+.col-4 {
+  width: 33.33333%;
 }
 
-.class7 {
-  font-size: 23px;
+.col-5 {
+  width: 41.66667%;
 }
 
-.class8 {
-  font-size: 24px;
+.col-6 {
+  width: 50%;
 }
 
-.class9 {
-  font-size: 25px;
+.col-7 {
+  width: 58.33333%;
 }
 
-.class10 {
-  font-size: 26px;
+.col-8 {
+  width: 66.66667%;
 }
 
-.class11 {
-  font-size: 27px;
+.col-9 {
+  width: 75%;
 }
 
-.class12 {
-  font-size: 28px;
+.col-10 {
+  width: 83.33333%;
 }
 
-.class13 {
-  font-size: 29px;
+.col-11 {
+  width: 91.66667%;
 }
 
-.class14 {
-  font-size: 30px;
-}
-
-.class15 {
-  font-size: 31px;
-}
-
-.class16 {
-  font-size: 32px;
+.col-12 {
+  width: 100%;
 }
